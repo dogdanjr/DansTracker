@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         chapterBox.textContent = `1 Nephi ${i}`;
         
         // Add 'completed' class to specific chapters if needed
-        if (i === 1 || i === 2 || i === 3 || i === 4 ) {
+        if (i === 1 || i === 2 || i === 3 || i === 4 || i === 5 || i === 6 || i === 7 || i === 8 || i === 9 ) {
             chapterBox.classList.add('completed'); // Example: Mark chapter 1 as completed
         }
 
